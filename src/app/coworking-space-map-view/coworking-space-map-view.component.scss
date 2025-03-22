@@ -6,8 +6,9 @@
   align-items: stretch;
   align-content: flex-start;
 }
-.row-layout {
+.column-layout {
   display: flex;
+  flex-direction: column;
 }
 .group {
   justify-content: flex-start;
@@ -19,11 +20,7 @@
   min-width: 50px;
   min-height: 50px;
   flex-grow: 1;
-  flex-shrink: 0;
-}
-.column-layout {
-  display: flex;
-  flex-direction: column;
+  flex-basis: 0;
 }
 .group_1 {
   justify-content: flex-start;
@@ -43,10 +40,12 @@
 }
 .image {
   object-fit: cover;
-  width: 550px;
+  width: 601px;
+  height: 715px;
   min-width: 0;
   min-height: 0;
-  max-width: 550px;
+  max-width: 601px;
+  max-height: 715px;
   flex-shrink: 0;
 }
 .text {
