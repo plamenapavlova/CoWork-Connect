@@ -92,7 +92,6 @@
 }
 .h2 {
   text-align: center;
-  color: theme:surface-100;
   height: max-content;
   min-width: min-content;
 }
@@ -102,7 +101,6 @@
 }
 .button_1 {
   --igx-button-foreground: var(--ig-primary-500);
-  --igx-button-background: theme:surface-100;
   --ig-size: var(--ig-size-large);
   height: max-content;
 }
